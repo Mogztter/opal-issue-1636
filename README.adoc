@@ -1,0 +1,19 @@
+= Reproduce Opal's issue #1636
+
+== Ruby
+
+```
+bundle install
+bundle exec ruby compile.rb
+```
+
+== JavaScript
+
+```
+npm install
+node compile.js
+```
+
+== Compare
+
+You compare the two files generated in the `build` directory.

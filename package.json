@@ -1,0 +1,30 @@
+{
+  "name": "opal-issue-1636",
+  "version": "1.0.0",
+  "description": "A sample project to reproduce Opal's issue #1636",
+  "engines": {
+    "node": ">=0.12",
+    "npm": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mogztter/opal-issue-1636.git"
+  },
+  "keywords": [
+    "asciidoctor",
+    "opal",
+    "javascript",
+    "library"
+  ],
+  "authors": [
+    "Guillaume Grossetie (https://github.com/mogztter)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mogztter/opal-issue-1636/issues"
+  },
+  "homepage": "https://github.com/mogztter/opal-issue-1636",
+  "devDependencies": {
+    "bestikk-opal-compiler": "0.3.0-integration2"
+  }
+}
