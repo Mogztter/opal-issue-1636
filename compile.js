@@ -1,3 +1,6 @@
-var OpalCompiler = require('bestikk-opal-compiler');
-var opalCompiler = new OpalCompiler({dynamicRequireLevel: 'ignore', defaultPaths: ['.']});
-opalCompiler.compile('code.rb', 'build/result-js.js');
+var fs = require('fs');
+var Builder = require('opal-compiler').Builder;
+
+var builder = Builder.$new();
+var result = builder.$build('code.rb').$to_s();
+fs.writeFileSync('build/result-js.js', result, 'utf8');

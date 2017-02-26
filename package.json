@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/mogztter/opal-issue-1636",
   "devDependencies": {
-    "bestikk-opal-compiler": "0.3.0-integration2"
+    "opal-compiler": "0.11.0-integration3"
   }
 }
